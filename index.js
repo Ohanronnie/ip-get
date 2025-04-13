@@ -60,8 +60,5 @@ app.get('/admin', (req, res) => {
     res.send(html);
   });
   
-app.listen(process.env.PORT || 3000, () => {
-  console.log('Server is running on http://localhost:3000');
-});
 
 module.exports = app;
